@@ -1,0 +1,511 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: #f8f8f8;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul li:first-child {
+    font-size: 22px;
+    line-height: 70px;
+    padding: 0 5% 0 10%;
+    font-weight: 700;
+}
+
+nav ul {
+
+    font-size: 15px;
+    width: 90%;
+    float: left;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+nav ul li:last-child {
+    float: right;
+}
+
+input[name="search_input"] {
+    width: 140px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #d8d8d8;
+    font-size: 12px;
+}
+
+input[name="search_input"]::placeholder {
+    color: #a9a9a9;
+}
+
+input[name="search_button"] {
+    width: 60px;
+    height: 40px;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #28a745;
+    background-color: #fff;
+}
+
+/*nav bar end*/
+
+/*color start*/
+
+.color_main_body, .typography_main_body, .buttons_main_body, .forms_main_body, .list_main_body, .table_main_body, .card_main_body {
+    /*padding-top: 10%;*/
+    width: 100%;
+    padding: 5% 10% 0 10%;
+}
+
+.color_main_body h2, .typography_main_body h2, .buttons_main_body h2, .forms_main_body h2, .list_main_body h2, .table_main_body h2, .card_main_body h2 {
+    padding: 3% 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.color_main_body .basic_color {
+    height: 160px;
+}
+
+.basic_color h3, .typography_main_body .typo_content_1 h3, .typography_main_body .typo_content_2 h3, .forms_main_body h3, .list_main_body h3 {
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.color_main_body .basic_color .color_card {
+    /*margin: 10px;*/
+    /*border: 2px solid black;*/
+    height: 140px;
+    width: 170px;
+    margin-right: 20px;
+    float: left;
+
+}
+
+.color_main_body .basic_color .color_card .color_for_card {
+
+    margin-bottom: 10px;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.color_main_body .basic_color .color_card .text_for_card {
+    font-weight: 600;
+}
+
+/*color end*/
+
+/*typo start*/
+
+.typography_main_body {
+    height: 90em;
+}
+
+.typo_content_1 {
+    margin-right: 50px;
+    height: 500px;
+    width: 550px;
+    float: left;
+}
+
+.typo_content_2 {
+
+}
+
+.tab_section {
+
+    width: 50%;
+
+}
+
+.tab {
+    height: 50px;
+    margin-top: 20px;
+    border-bottom: 1px solid #abb5b3;
+}
+
+.tab button {
+    width: 100px;
+    text-align: center;
+    background-color: inherit;
+    float: left;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid #abb5b3;
+    border-radius: 5px 5px 0 0;
+}
+
+/*typo end*/
+
+/*button start*/
+
+.buttons_main_body {
+    height: 90em;
+}
+
+.buttons_main_body td, .buttons_main_body th {
+    padding: 10px 50px;
+    font-weight: 400;
+}
+
+.buttons_main_body button {
+    height: 30px;
+    font-weight: 600;
+    width: 90px;
+    border-radius: 5px;
+}
+
+button[name="hover_button_1"], button[name="focus_button_1"] {
+    background-color: #7749f8;
+    border: 0;
+    color: white;
+}
+
+button[name="outline_1"], button[name="hover_outline_1"] {
+    background-color: white;
+    border: 2px solid #7749f8;
+    color: #7749f8;
+}
+
+button[name="hover_outline_1"]:hover {
+    background-color: #7749f8;
+    border: 0;
+    color: white;
+}
+
+button[name="hover_button_1"]:hover {
+    background-color: #5227CC;
+}
+
+button[name="focus_button_1"]:focus {
+    background-color: #5227CC;
+}
+
+
+button[name="hover_button_2"], button[name="focus_button_2"] {
+    background-color: #808080;
+    border: 0;
+    color: white;
+}
+
+button[name="outline_2"], button[name="hover_outline_2"] {
+    background-color: white;
+    border: 2px solid #808080;
+    color: #808080;
+}
+
+button[name="hover_outline_2"]:hover {
+    background-color: #808080;
+    border: 0;
+    color: white;
+}
+
+button[name="hover_button_2"]:hover {
+    background-color: #54595E;
+}
+
+button[name="focus_button_2"]:focus {
+    background-color: #54595E;
+}
+
+/*button end*/
+
+/*form start*/
+
+.form_content {
+    width: 350px;
+    float: left;
+
+}
+
+.forms_main_body {
+    height: 90em;
+}
+
+.forms_main_body ul, .list_main_body ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.forms_main_body ul li a, .list_main_body ul li a {
+    text-decoration: none;
+
+}
+
+.forms_main_body ul li, .list_main_body ul li, .list_main_body table td, .list_main_body table th {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.list_main_body ul li:first-child {
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.forms_main_body ul li:last-child, .list_main_body ul li:last-child {
+    border-bottom: none
+}
+
+.form_content {
+    margin-right: 60px;
+}
+
+input[name="form_input"] {
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #a9a9a9;
+}
+
+input[name="form_input"]::placeholder {
+    color: #a9a9a9;
+}
+
+select[name="form_select"] {
+    width: 400px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #a9a9a9;
+}
+
+textarea[name="form_textarea"] {
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #a9a9a9;
+    resize: none;
+    height: 90px;
+    padding: 10px;
+}
+
+input[name="input_success"] {
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #28a745;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+input[name="checkbox"] {
+    font-size: 120px;
+}
+
+.checkbox_content {
+    width: 200px;
+    float: left;
+}
+
+.form_content_right {
+    float: right;
+}
+
+.list_right {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.form_content_right ul {
+    border-radius: 5px;
+}
+
+.form_content_right span {
+    float: right;
+    font-size: 12px;
+}
+
+.form_content_right p {
+    margin-top: 10px;
+    color: #54595E;
+}
+
+
+.table_main_body table {
+    color: #54595E;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.table_main_body table td, .table_main_body table th {
+    text-align: left;
+}
+
+.table_main_body table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.table_main_body table tr {
+    height: 50px;
+}
+
+.pagination {
+    float: right;
+    margin-top: 10px;
+}
+
+.pagination li {
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    width: 40px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid #a9a9a9;
+    color: #7749F8;
+}
+
+.pagination li:nth-child(2) {
+    background-color: #7749F8;
+    color: white;
+    border-color: #7749F8;
+}
+
+.pagination li:first-child, .pagination li:last-child {
+    width: 50px;
+}
+
+.card {
+    margin-top: 40px;
+    border-radius: 6px;
+    width: 300px;
+    height: 370px;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-left: 30px;
+}
+
+.top {
+    padding: 10px;
+}
+
+.dot {
+    width: 5px;
+    height: 20px;
+}
+
+.cover {
+    width: 70px;
+    height: 60px;
+}
+
+.profile_img, .user_detail, .threedots {
+    float: left;
+}
+
+.user_detail {
+    font-size: 10px;
+    margin-right: 85px;
+}
+
+.threedots {
+    margin-top: 15px;
+}
+
+.post_image {
+    width: 100%;
+}
+
+.flower_img {
+    width: 300px;
+    height: 200px;
+}
+
+.yoga_img {
+
+    width: 300px;
+    height: 250px;
+}
+
+.flower_img {
+
+    height: 200px;
+}
+
+.lamp_img {
+    height: 220px;
+    width: 300px;
+}
+
+.lcs_content {
+    float: left;
+    padding: 10px 25px;
+}
+
+.user_img, .text {
+    float: left;
+}
+
+.cover_1 {
+    width: 50px;
+    height: 40px;
+}
+
+.text {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.yoga_div {
+    border-radius: 15px 15px 0 0;
+}
+
+.button {
+    top: -30px;
+    right: 3%;
+    left: 45%;
+    text-align: center;
+    background-color: green;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    position: relative;
+}
+
+
+.button span {
+    margin-top: 20px;
+    color: white;
+}
+
+.card p {
+
+    text-align: center;
+}
