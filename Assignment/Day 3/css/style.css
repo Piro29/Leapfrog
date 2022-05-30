@@ -1,0 +1,313 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*overflow-x: hidden;*/
+
+}
+
+header {
+    height: 85px;
+}
+
+.logo {
+    float: left;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav {
+    float: right;
+}
+
+
+.navbar li {
+    list-style-type: none;
+    float: left;
+    padding: 30px;
+    color: #808080;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navlist {
+    padding: 0;
+    margin: 0;
+}
+
+.hometab {
+    color: #4E42D9;
+}
+
+.btn {
+    margin: 0;
+    background-color: #4E42D9;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+}
+
+.first_content .btn {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.main_body {
+    margin: 0 10%;
+    /*overflow-x: hidden;*/
+}
+
+
+.first_content .text {
+    width: 50%;
+    float: left;
+}
+
+.first_content .heading {
+    margin-bottom: 0;
+    line-height: 130%;
+
+    width: 500px;
+    height: 141px;
+
+    font-weight: 700;
+    font-size: 39px;
+}
+
+.first_content .img {
+    float: right;
+}
+
+.first_content {
+    /*height: 10em;*/
+    display: inline-block;
+}
+
+.first_content .text-color-grey {
+    width: 80%;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.text-color-grey {
+    color: #808080;
+}
+
+.second_content {
+    width: 100%;
+    /*margin-top: 70px;*/
+    /*height: 350px;*/
+    display: inline-block;
+}
+
+.cards {
+    margin-top: 55px;
+}
+
+.card {
+    float: left;
+    width: 25%;
+    margin-bottom: 50px;
+
+}
+
+.card h3{
+
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+.card p{
+
+    width: 285px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.image-align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.second_content h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+.for_bgc_third {
+    padding-top: 18px;
+    background: #F8F8F8;
+}
+
+.third_content {
+    width: 80%;
+    margin: 0 auto;
+    height: 850px;
+
+}
+
+.third_content h2 {
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.blog_p {
+    width: 45%;
+    margin: 0 auto;
+    /*margin-left: 33%;*/
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.blog_cards {
+    margin-top: 25px;
+}
+
+.blog_card {
+    height: 32em;
+    margin-right: 40px;
+    float: left;
+    width: 30%;
+}
+
+.blog_card img {
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.blog_cards spam {
+    color: #797979;
+
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.blog_cards p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.third_content_btn {
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 50%;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 110%;
+}
+
+
+footer {
+    background: #292838;
+    height: 25em;
+}
+
+.footer_links {
+    height: 20em;
+
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 80%;
+    color: white;
+}
+
+.left_side {
+    width: 35%;
+    float: left;
+}
+
+.left_side p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.right_side {
+    float: right;
+    width: 50%;
+}
+
+.ul_items {
+    float: left;
+    margin-right: 80px;
+}
+
+.ul_items ul {
+
+    padding: 0;
+}
+
+.ul_items li {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.ul_items li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.left_side p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.right_side h3 {
+    text-transform: uppercase;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 110%;
+}
+
+.copyright {
+    height: 56px;
+    background: #23222F;
+
+}
+
+.copyright .text-align-center {
+    padding-top: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.8);
+}
