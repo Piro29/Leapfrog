@@ -1,11 +1,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
     /*overflow-x: hidden;*/
+    margin: 0;
+    padding: 0;
 
 }
 
 header {
     height: 5rem;
+    position: fixed;
+    width: 100%;
+    display: inline;
+    background-color: #fff;
 }
 
 .logo {
@@ -54,7 +60,7 @@ nav {
 .first_content .btn {
     margin-top: 2rem;
     font-size: 1rem;
-    margin-right: 1rem;
+    margin-right: 1%;
 }
 
 .main_body {
@@ -81,9 +87,11 @@ nav {
 
 .first_content img {
     float: right;
+    width: 50%;
 }
 
 .first_content {
+    margin-top: 5rem;
     /*height: 10em;*/
     display: inline-block;
 }
@@ -106,6 +114,7 @@ nav {
 }
 
 .cards {
+
     margin-top: 3.4rem;
 }
 
@@ -116,18 +125,18 @@ nav {
 
 }
 
-.card h3{
+.card h3 {
 
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.5rem;
     line-height: 150%;
 }
 
-.card p{
+.card p {
 
     width: 285px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
 }
 
@@ -146,7 +155,7 @@ h2 {
 }
 
 .second_content h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 p {
@@ -186,16 +195,20 @@ p {
 
 .blog_cards {
     margin-top: 25px;
+    height: auto;
+    width: auto;
 }
 
 .blog_card {
-    height: 32em;
-    margin-right: 40px;
+    margin-top: 2rem;
+    height: auto;
+    margin-right: 2%;
     float: left;
     width: 30%;
 }
 
 .blog_card img {
+    width: 100%;
     border-radius: 6px;
     margin-bottom: 10px;
 }
@@ -208,20 +221,24 @@ p {
 }
 
 .blog_cards p {
-
+    width: 100%;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
 }
 
 .third_content_btn {
-    align-items: center;
-    margin-left: 45%;
-    margin-top: 50%;
 
+    /*margin-top: 2rem;*/
+    height: auto;
+    margin-right: 2%;
+    /*float: left;*/
+    /*width: 24rem;*/
+    text-align: center;
+    margin-top: 50%;
     font-weight: 700;
     font-size: 16px;
-    line-height: 110%;
+    /*line-height: 110%;*/
 }
 
 
@@ -312,7 +329,7 @@ footer {
     color: rgba(255, 255, 255, 0.8);
 }
 
-.menu-btn{
+.menu-btn {
     width: 3rem;
     height: 3rem;
     float: right;
@@ -321,16 +338,16 @@ footer {
     display: none;
 }
 
-.menu-btn span{
+.menu-btn span {
     display: block;
     width: 2rem;
     height: 0.3rem;
     border-radius: 2px;
     background-color: #000;
-    margin:6px 0;
+    margin: 6px 0;
 }
 
-#side-drawer{
+#side-drawer {
     width: 100%;
     height: auto;
     background-color: #fff;
@@ -339,11 +356,11 @@ footer {
     top: 0;
     left: 0;
     bottom: 0;
-    overflow-y:scroll;
-    overflow-x:hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-.close-btn{
+.close-btn {
     padding: 3rem;
     width: 3rem;
     height: 3rem;
@@ -351,7 +368,7 @@ footer {
     text-align: center;
 }
 
-.close-btn span{
+.close-btn span {
 
     font-size: 2rem;
     width: 2rem;
@@ -359,22 +376,22 @@ footer {
     display: inline-block;
 }
 
-#side-drawer:target{
+#side-drawer:target {
     display: block;
 }
 
-#side-drawer nav{
+#side-drawer nav {
     width: 100%;
 
 }
 
-#side-drawer ul{
+#side-drawer ul {
     list-style: none;
     margin: 0;
     padding: 4rem 1rem;
 }
 
-#side-drawer li{
+#side-drawer li {
     font-size: 1.5rem;
     margin: 5rem;
     text-align: center;
@@ -382,43 +399,47 @@ footer {
 
 @media (max-width: 576px) {
 
-    .main_body{
+    .main_body {
         margin: 0 7%;
     }
-    header  nav{
+
+    header nav {
         display: none;
     }
 
 
-    .menu-btn{
+    .menu-btn {
         display: block;
     }
 
-    .logo{
+    .logo {
         font-size: 1.5rem;
     }
-    .first_content img{
+
+    .first_content img {
         float: none;
         width: 100%;
         height: 4%;
     }
 
-    .first_content{
+    .first_content {
         width: 100%;
     }
 
-    .first_content .text{
+    .first_content .text {
         width: auto;
     }
-    .first_content .text-color-grey{
+
+    .first_content .text-color-grey {
         width: 100%;
         margin: 3rem 0;
     }
 
-    .first_content .btn{
+    .first_content .btn {
         margin: 2rem;
     }
-    .cards{
+
+    .cards {
         margin: 1rem auto;
     }
 
@@ -429,36 +450,39 @@ footer {
 
     }
 
-    .card p{
+    .card p {
         width: 100%;
     }
 
-    .blog_p{
+    .blog_p {
         width: 100%;
     }
 
-    .blog_card{
-        margin: 2rem 0 ;
+    .blog_card {
+        margin: 2rem 0;
         float: none;
         width: 100%;
+        height: 38%;
     }
 
-    .third_content_btn{
+    .third_content_btn {
         margin: 0;
         text-align: center;
     }
 
-    .third_content{
+    .third_content {
         height: 118rem;
     }
 
-    .third_content img{
+    .third_content img {
         width: 100%;
     }
-    .footer_links{
+
+    .footer_links {
         width: 90%;
     }
-    .left_side, .right_side{
+
+    .left_side, .right_side {
         width: 100%;
         float: none;
     }
@@ -466,6 +490,65 @@ footer {
     .ul_items {
         margin-right: 9rem;
         margin-top: 2rem;
+    }
+
+}
+
+@media (min-width: 576px ) and (max-width: 1200px ) {
+
+    header nav {
+        display: none;
+    }
+
+
+    .menu-btn {
+        display: block;
+    }
+
+    .first_content .text {
+        width: 50%;
+    }
+
+    .first_content img {
+        width: 50%;
+        height: 100%;
+    }
+
+
+    .navbar {
+        width: 70%;
+    }
+
+    cards{
+        margin: 0 auto;
+    }
+
+    .card h3 p {
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+
+    .third_content_btn {
+        margin: 0;
+        float: left;
+        width: 100%;
+    }
+
+    .ul_items {
+        width: 25%;
+    }
+
+    .card {
+        width: 18rem;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .card img {
+
+        width: 50%;
+        height: auto;
     }
 
 }
