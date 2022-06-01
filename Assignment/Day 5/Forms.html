@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Color</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="">UI Kit</a></li>
+        <li><a href="./color.html">Color</a></li>
+        <li><a href="./Typography.html">Typography</a></li>
+        <li><a href="./Buttons.html">Buttons</a></li>
+        <li><a href="./Forms.html">Forms</a></li>
+        <li><a href="./List%20Group.html">List Group</a></li>
+        <li><a href="./Table.html">Table</a></li>
+        <li><a href="./Card.html">Card</a></li>
+        <li>
+            <form action="">
+                <input type="text" name="search_input" placeholder="Search">
+                <input type="submit" value="Search" name="search_button">
+            </form>
+        </li>
+    </ul>
+
+</nav>
+<div class="main_body forms">
+    <h2>Forms</h2>
+    <hr>
+    <div class="form_content">
+        <h3>Components</h3>
+        <ul>
+            <li><a href="./color.html">Color</a></li>
+            <li><a href="./Typography.html">Typography</a></li>
+            <li><a href="./Buttons.html">Buttons</a></li>
+            <li class="active"><a href="./Forms.html" style="color: white">Forms</a></li>
+            <li><a href="./List%20Group.html">List Group</a></li>
+            <li><a href="./Table.html">Table</a></li>
+            <li><a href="./Card.html">Card</a></li>
+        </ul>
+    </div>
+
+    <div class="form_content" style="width: 745px">
+        <h3>Input</h3><br>
+        <input type="text" placeholder="Placeholder" name="form_input">
+        <h3>Select Menu</h3><br>
+        <select name="form_select">
+            <option value="select1">Select 1</option>
+            <option value="select2">Select 2</option>
+            <option value="select3">Select 3</option>
+            <option value="select4">Select 4</option>
+        </select>
+        <h3>Textarea</h3><br>
+        <textarea name="form_textarea" placeholder="Write your message here"></textarea>
+
+        <h5>Checkboxes</h5>
+        <div class="checkbox_content">
+            <h4>Checkbox</h4>
+            <input type="checkbox" name="checkbox" value="">
+            <label>Default checkbox</label><br>
+            <input type="checkbox" name="checkbox" value="" checked>
+            <label>Default checkbox</label><br>
+            <input type="checkbox" name="checkbox" value="" disabled>
+            <label style="color: #a9a9a9">Disabled (disabled)</label>
+
+        </div>
+        <div class="checkout_content second" style="">
+            <h4>Checkboxes inline</h4>
+
+            <input type="checkbox" name="checkbox" value="">
+            <label>Default checkbox</label>
+            <input type="checkbox" name="checkbox" value="" checked>
+            <label>Default checkbox</label>
+            <input type="checkbox" name="checkbox" value="" disabled>
+            <label style="color: #a9a9a9;">Default (disabled)</label>
+        </div>
+        <h5 class="radio">Radios</h5>
+        <div class="checkbox_content">
+            <h4>Radios</h4>
+            <input type="radio" name="checkbox1" value="">
+            <label>Default radio</label><br>
+            <input type="radio" name="checkbox1" value="" checked>
+            <label>Selected radio</label><br>
+            <input type="radio" name="checkbox1" value="" disabled>
+            <label style="color: #a9a9a9">Disabled radio</label>
+
+        </div>
+        <div class="checkout_content second">
+            <h4>Radios inline</h4>
+
+            <input type="radio" name="checkbox" value="">
+            <label>Default radio</label>
+            <input type="radio" name="checkbox" value="" checked>
+            <label>Selected radio</label>
+            <input type="radio" name="checkbox" value="" disabled>
+            <label style="color: #a9a9a9">Disabled radio</label>
+        </div>
+        <h5>Validation</h5>
+        <label >Input Success</label><br>
+        <input type="text" name="input_success">
+        <br>
+        <label>Input Error</label><br>
+        <input type="text" name="input_success" style="border: 2px solid #DC3545;">
+    </div>
+
+    <p class="time-taken">Forms took 1 hour</p>
+</div>
+</body>
+</html>
