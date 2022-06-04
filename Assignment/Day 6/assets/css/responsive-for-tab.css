@@ -1,0 +1,377 @@
+@media (min-width: 576px ) and (max-width: 1200px ){
+    /*header{*/
+    /*    padding: 1rem;*/
+    /*    height: auto;*/
+    /*}*/
+
+    /*.page-top{*/
+    /*    height: auto;*/
+    /*    margin-top: 2rem;*/
+    /*}*/
+
+    /*.page-top__right-side{*/
+    /*    width: 50%;*/
+    /*    position: relative;*/
+    /*    margin-right: 0;*/
+    /*}*/
+
+    /*.page-top__main-img img{*/
+    /*    width: 100%;*/
+    /*}*/
+
+    /*.page-top__left-side{*/
+    /*    padding: 0;*/
+    /*    display: table;*/
+    /*}*/
+
+    /*.__rating {*/
+    /*    right: 0;*/
+    /*    left: 1%;*/
+    /*}*/
+
+    /*.__comment{*/
+    /*    top: 33%;*/
+    /*    right: 1%;*/
+    /*}*/
+
+    /*.page-top__logoipsum{*/
+    /*    width: 100%;*/
+    /*    margin: 0 auto;*/
+    /*    display: table-row;*/
+    /*}*/
+
+    /*.page-top__logoipsum img {*/
+    /*    float: none;*/
+    /*    margin: 2rem auto;*/
+    /*    display: table-column;*/
+
+    /*}*/
+
+    /*.features__services{*/
+    /*    float: none;*/
+    /*    display: inline-block;*/
+    /*    height: auto;*/
+    /*    width:auto;*/
+    /*    margin: 0 auto;*/
+    /*}*/
+
+    /*.benefits{*/
+    /*    height: auto;*/
+    /*    margin-top: 5rem;*/
+    /*}*/
+
+    /*.benefits__left-side{*/
+    /*    width: 50%;*/
+    /*}*/
+
+    /*.benefits__left-side img{*/
+    /*    width: 100%;*/
+    /*}*/
+
+    /*.benefits__right-side{*/
+    /*    width: 50%;*/
+    /*    height: auto;*/
+    /*}*/
+
+    .benefits__polcadot{
+        display: none;
+    }
+
+    /*.benefits__right-side h4{*/
+    /*    margin-top: 0;*/
+    /*}*/
+
+    header {
+        padding: 1rem;
+        z-index: 3;
+        height: auto;
+    }
+
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo a{
+    }
+
+    nav{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    nav ul{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li{
+        font-size: 0.8rem;
+        margin: 1rem 1.5rem;
+    }
+
+    .container {
+        padding-top: 15%;
+        width: 90%;
+    }
+
+    .page-top {
+        height: auto;
+        width: 100%;
+    }
+
+    .page-top__left-side {
+        width: 100%;
+    }
+
+    .page-top__main-img img {
+        width: 100%;
+    }
+
+    .page-top__right-side{
+        position: relative;
+        float: none;
+        margin-right: 0;
+    }
+
+    .page-top__btn{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .page-top__polcadot {
+        display: none;
+    }
+
+    .page-top__logoipsum {
+        margin-top: 2rem;
+    }
+
+    .page-top__logoipsum img {
+        margin: 2rem auto;
+        width: 30%;
+        display: inline-block;
+        float: none;
+    }
+
+    .features__services {
+        display: inline-block;
+        margin: 1rem auto;
+        float: none;
+    }
+
+    .features__services:last-child {
+        margin-right: auto;
+    }
+
+    .benefits {
+        margin-top: 5rem;
+        height: auto;
+    }
+
+    .benefits__left-side,
+    .benefits__right-side {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+
+    .benefits__left-side img {
+        width: 100%;
+    }
+
+    .benefits__right-side h4,
+    .benefits__check-items {
+        margin-top: 2rem;
+    }
+
+    .stars__right-side {
+        width: 100%;
+        float: none;
+        background-color: white;
+        height: auto;
+    }
+
+    .stars__right-side img {
+        margin-top: 2rem;
+        width: 100%;
+        float: none;
+    }
+
+    .stars__left-side {
+        float: none;
+        width: 100%;
+    }
+
+    .stars {
+        margin-top: 3rem;
+        height: auto;
+    }
+
+    .stars__stats {
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .stars__stat {
+        margin-top: 2rem;
+    }
+
+    .stars__btn {
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+
+    .our-features {
+        height: auto;
+    }
+
+    .our-features__cards {
+        height: auto;
+        margin: 0;
+    }
+
+    .our-features__card {
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+
+    .our-features__card-left {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .our-features__card-left img {
+        width: 100%;
+    }
+
+    .our-features__card-right {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+
+
+    .our-features__card-left-bot {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .our-features__card-right-bot {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .our-features__card-right-bot img {
+        width: 100%;
+    }
+
+    .our-products {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .our-products__card {
+        margin: 0 auto;
+        float: none;
+        height: auto;
+        display: inline-block;
+    }
+
+    .our-products__btn{
+        margin-bottom: 1rem;
+    }
+
+    .rectangle {
+        margin-top: 2rem;
+        height: auto;
+    }
+
+    .rectangle__background img {
+        height: auto;
+        object-fit: cover;
+    }
+
+    .rectangle__content h1 {
+        padding-top: 2rem;
+        width: 100%;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .rectangle__btn {
+        margin-top: 1rem;
+        height: auto;
+
+    }
+
+    .__rating {
+        right: 0;
+        left: 1%;
+    }
+
+    .__comment{
+        top: 33%;
+        right: 1%;
+    }
+
+    .footer {
+        margin-top: 20%;
+        height: auto;
+    }
+
+    .footer__foodies {
+        width: 100%;
+        float: none;
+    }
+
+    .footer__foodies p {
+        width: 100%;
+    }
+
+    .footer__btns {
+        display: block;
+        height: 2rem;
+        width: 100%;
+    }
+
+    .footer__about-us {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        height: auto;
+    }
+
+    .footer__about-us__content {
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .footer__get-in-touch{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer__get-in-touch p{
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .footer h4{
+        margin-top: 2rem;
+        display: block;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}

@@ -1,0 +1,395 @@
+
+.logo a {
+    color: #06C167;
+    font-size: 2.6rem;
+}
+
+nav ul li a{
+    position: relative;
+}
+
+nav ul li a span{
+    color: #06C167;
+    position: absolute;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: -70%;
+    display: none;
+}
+
+nav ul li .active{
+    color: #06C167;
+}
+
+nav ul li .active span{
+    display: block;
+
+}
+
+nav ul li a:hover{
+    color: #06C167;
+}
+
+nav ul li a:hover span{
+    color: #06C167;
+    transition: 0.3s;
+    display: block;
+}
+
+hr {
+    opacity: 0.15;
+    border: 2px solid #707070;
+    background-color: #707070;
+}
+
+.page-top__left-side h1 {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 91px;
+}
+
+.page-top__left-side p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 142.4%;
+    color: #1D1D1FBF;
+}
+
+
+.page-top__btn:hover {
+    background-color: #28a745;
+}
+
+.page-top__btn a {
+    color: #fff;
+}
+
+.page-top__btn img{
+    margin-left: 1rem;
+}
+
+.page-top__rectangle h6 {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+.features__text h5 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+
+.features__text h4 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.benefits__right-side h4 {
+    margin-top: 6rem;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.benefits__right-side h1 {
+    margin-top: 1.25rem;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.benefits__check-item h4 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    /*display: inline;*/
+}
+
+.stars__left-side h4 {
+    margin-top: 5rem;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.stars__left-side h1 {
+    margin-top: 1.25rem;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.stars__stat h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #06C167;
+}
+
+.stars__stat h4{
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.stars__btn a{
+    color: white;
+    transition: 0.3s;
+}
+
+.stars__btn:hover{
+    background-color: #28a745;
+}
+
+.our-features h4 {
+    margin-top: 5rem;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.our-features h1 {
+    margin-top: 1.25rem;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.our-features__card-right h2,
+.our-features__card-left-bot h2
+{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.our-features__card-right h4,
+.our-features__card-left-bot h4{
+    margin-top: 1.5rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.our-features__btn {
+
+    margin-top: 3rem;
+    width: 9.25rem;
+    background-color: #E6F9F0;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.our-features__btn:hover{
+    background-color: #06C167;
+}
+
+.our-features__btn:hover a{
+    color: #fff;
+}
+
+.our-features__btn a{
+    color: #06C167;
+    transition: 0.3s;
+}
+.our-products h4 {
+    margin-top: 5rem;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.our-products h1 {
+    margin-top: 1.25rem;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.our-products__card{
+    border: 2px solid #76767540;
+    width: 16.75rem;
+    margin: 0 1.5rem;
+    height: 27.6rem;
+    text-align: center;
+    float: left;
+}
+
+.our-products__cards .active{
+    border: 2px solid #06C167;
+}
+
+.our-products__img img{
+    height: 11.8rem;
+    width: 11.8rem;
+}
+
+.our-products__card h5{
+    margin: 1rem 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.our-products__card h6{
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.our-products__card h6 del{
+    text-decoration: line-through;
+    color: #767675;
+}
+
+.our-products__btn{
+    width: 11rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 3.4rem;
+    line-height: 3rem;
+    border: 2px solid #06C167;
+    transition: 0.3s;
+}
+
+.our-products__btn:hover{
+    background-color: #F3FCF7;
+}
+
+.our-products__btn a{
+    color: #06C167;
+}
+
+.our-products__btn a img{
+    height: 11px;
+    width: 22px;
+    margin-left: 1rem;
+}
+
+.rectangle__background{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.rectangle__background img{
+    width: 100%;
+}
+
+.rectangle__content h1{
+    padding-top: 10rem;
+    width: 60%;
+    font-weight: 600;
+    color: white;
+    font-size: 60px;
+    line-height: 73px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rectangle__btn {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 12.5rem;
+    background-color: #06C167;
+    height: 4.25rem;
+    line-height: 4.25rem;
+    text-align: center;
+}
+
+.rectangle__btn:hover {
+}
+
+.rectangle__btn a {
+    color: #fff;
+}
+
+.rectangle__btn img{
+    margin-left: 1rem;
+}
+
+.footer__foodies h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #06C167;
+}
+
+.footer__foodies p{
+    margin: 2rem 0;
+    width: 58%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1F;
+}
+
+.footer__about-us__content h2{
+    margin: 1.5rem 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1D1D1F;
+}
+
+.footer__about-us__content ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2rem;
+    color: #1D1D1F;
+}
+
+.footer__get-in-touch h2{
+    margin: 1.5rem 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1D1D1F;
+}
+
+.footer__get-in-touch p{
+    margin: 2rem 0;
+    width: 90%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1F;
+}
+
+input[type="email"]{
+    background-color: #F0F1EC;
+    width: 205px;
+    height: 50px;
+    border: none;
+}
+
+input[type="submit"]{
+    margin-left: 1rem;
+    width: 118px;
+    height: 50px;
+    background-color: #06C167;
+    border: none;
+    color: white;
+}
+
+.footer h4{
+    display: inline;
+    margin-top: 10rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    top: 20%;
+    left: 41%;
+}
