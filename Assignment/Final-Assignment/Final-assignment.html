@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive-for-mob.css">
+    <title>Flex Assignment</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <div class="logo__background">
+            <img src="./assets/images/logo-background.png" alt="Logo">
+        </div>
+        <div class="logo__text">
+            Skilline
+        </div>
+
+    </div>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="nav-btns">
+        <div class="nav-btn login">
+            <a href="">
+                <button>Login</button>
+            </a>
+        </div>
+        <div class="nav-btn signup">
+            <a href="">
+                <button>Sign Up</button>
+            </a>
+        </div>
+    </div>
+
+    <a href="#side-drawer" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+
+</header>
+
+<aside id="side-drawer">
+    <header>
+        <a href="#" class="close-btn">
+            <span>&#10006;</span>
+        </a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="nav-btns">
+        <div class="nav-btn login">
+            <a href="">
+                <button>Login</button>
+            </a>
+        </div>
+        <div class="nav-btn signup">
+            <a href="">
+                <button>Sign Up</button>
+            </a>
+        </div>
+    </div>
+</aside>
+
+<div class="container">
+    <div class="hero">
+        <div class="hero__background"></div>
+        <div class="hero__right">
+            <img src="./assets/images/lovely-teenage-girl-with-curly-hair-posing-yellow-tshirt-min%201.png" alt="">
+
+            <div class="right__group-1">
+                <img src="./assets/images/Group%209.png" alt="Stat">
+            </div>
+
+            <div class="right__group-2">
+                <div class="group-2__img">
+                    <img src="./assets/images/calender.png" alt="calender">
+                </div>
+                <div class="group-2__text">
+                    <h2>250k</h2>
+                    <p>Assisted Student</p>
+                </div>
+            </div>
+
+            <div class="right__group-3">
+                <img src="./assets/images/tick.png" alt="">
+                <div class="group-3__img">
+                    <img src="./assets/images/email%202%201.png" alt="calender">
+                </div>
+                <div class="group-3__text">
+                    <h2>Congratulations</h2>
+                    <p>Your admission completed</p>
+                </div>
+            </div>
+
+            <div class="right__group-4">
+                <div class="group-4__img">
+                    <img src="./assets/images/pp.png" alt="calender">
+                    <img src="./assets/images/online.png" alt="online" id="online">
+                </div>
+                <div class="group-4__text">
+                    <h2>User Experience Class</h2>
+                    <p>Today at 12.00 PM</p>
+                </div>
+                <div class="group-4__btn">
+                    <a href="">
+                        <button>Join Now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero__left">
+            <div class="hero__left-text">
+                <h1><span>Studying</span> Online is now much easier</h1>
+                <p>Skilline is an interesting platform that will teach you in more an interactive way</p>
+            </div>
+            <div class="hero__left-btn">
+                <div class="left-btn__join">
+                    <a href="">
+                        <button>Join for free</button>
+                    </a>
+                </div>
+                <div class="left-btn__watch">
+                    <a href=""><img src="./assets/images/play.png" alt=""></a>
+                </div>
+                <p>Watch how it works</p>
+            </div>
+        </div>
+    </div>
+    <div class="clear-fix"></div>
+    <div class="company">
+        <h4>Trusted by 5,000+ Companies Worldwide</h4>
+        <div class="company__logos">
+            <img src="./assets/images/google-2015%201.png" alt="">
+            <img src="./assets/images/netflix-3%201.png" alt="">
+            <img src="./assets/images/airbnb%201.png" alt="">
+            <img src="./assets/images/amazon-2%20(1)%201.png" alt="">
+            <img src="./assets/images/facebook.png" alt="">
+            <img src="./assets/images/grab-logo.png" alt="">
+        </div>
+    </div>
+
+    <div class="clear-fix"></div>
+
+    <div class="all-in-one">
+        <div class="all-in-one__text">
+            <h1><span>All-In-One</span> Cloud Software.</h1>
+            <p>Skilline is one powerful online software suite that combines all the tools needed to run a successful
+                school or office.
+            </p>
+        </div>
+        <div class="all-in-one__cards">
+            <div class="cards__card">
+                <div class="card-icon purple">
+                    <img src="./assets/images/billing.png" alt="">
+                </div>
+                <h4>Online Billing, Invoicing, & Contracts</h4>
+                <p>Simple and secure control of your organization’s financial and legal transactions. Send customized
+                    invoices and contracts</p>
+            </div>
+
+            <div class="cards__card">
+                <div class="card-icon orange">
+                    <img src="./assets/images/calender1.png" alt="">
+                </div>
+                <h4>Easy Scheduling & Attendance Tracking</h4>
+                <p>Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student
+                    attendance</p>
+            </div>
+
+            <div class="cards__card">
+                <div class="card-icon blue">
+                    <img src="./assets/images/customer.png" alt="">
+                </div>
+                <h4>Customer Tracking</h4>
+                <p>Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your
+                    organization </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="skilline">
+        <h1><span>What is </span>Skilline?</h1>
+        <p>Skilline is a platform that allows educators to create online classes whereby they can store the course
+            materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide
+            students with feedback all in one place.</p>
+
+        <div class="skilline__cards">
+            <div class="skilline__card">
+                <div class="skilline__card-img">
+                    <img src="./assets/images/for-instructors.png" alt="For-Instructor">
+                </div>
+                <div class="skilline__card-text">
+                    <h3>FOR INSTRUCTORS</h3>
+                    <a href="">Start a class today</a>
+                </div>
+            </div>
+            <div class="skilline__card">
+                <div class="skilline__card-img">
+                    <img src="./assets/images/for-students.png" alt="For-Instructor">
+                </div>
+                <div class="skilline__card-text">
+                    <h3>FOR STUDENTS</h3>
+                    <a class="student-blue" href="">Enter access code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear-fix"></div>
+
+    <div class="you-can-do">
+        <div class="you-can-do__text">
+            <img src="./assets/images/Ellipse%2012.png" alt="">
+            <h1>Everything you can do in a physical classroom, <span>you can do with Skilline</span></h1>
+            <p>
+                Skilline’s school management software helps traditional and online schools manage scheduling,
+                attendance, payments and virtual classrooms all in one secure cloud-based system.
+            </p>
+            <img src="./assets/images/Ellipse%2013.png" alt="" id="small-circle">
+
+            <a href="">Learn more</a>
+        </div>
+        <div class="you-can-do__img">
+            <img class="bg" src="./assets/images/Rectangle%2018.png" alt="">
+            <img class="you-can-do__main-img" src="./assets/images/confident-teacher-explaining-lesson-pupils%201.png"
+                 alt="">
+            <img class="bg bot" src="./assets/images/Rectangle%2017.png" alt="">
+        </div>
+    </div>
+
+    <div class="our-features">
+        <h1>Our <span>Features</span></h1>
+        <p>This very extraordinary feature, can make learning activities more efficient</p>
+
+        <div class="our-features__user-interface">
+            <div class="user-interface__img">
+                <img class="bg big-green" src="./assets/images/big-green-circle.png" alt="">
+                <img class="bg small-green" src="./assets/images/small-green-circle.png" alt="">
+                <img class="user-interface__main-img" src="./assets/images/user-interface.png" alt="">
+                <img class="bg big-purple" src="./assets/images/big-purple-circle.png" alt="">
+                <img class="bg small-red" src="./assets/images/small-red-circle.png" alt="">
+            </div>
+
+            <div class="user-interface__text">
+                <h1>
+                    A <span>user interface </span>designed for the classroom
+                </h1>
+
+                <div class="user-interface__text-body">
+                    <div class="user-interface__col">
+                        <div class="col__img">
+                            <img src="./assets/images/Group%2072.png" alt="">
+                        </div>
+                        <p>Teachers don’t get lost in the grid view and have a dedicated Podium space.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="user-interface__text-body">
+                    <div class="user-interface__col">
+                        <div class="col__img">
+                            <img src="./assets/images/Group%2073.png" alt="">
+                        </div>
+                        <p>TA’s and presenters can be moved to the front of the class.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="user-interface__text-body">
+                    <div class="user-interface__col">
+                        <div class="col__img">
+                            <img src="./assets/images/users%202.png" alt="">
+                        </div>
+                        <p>Teachers can easily see all students and class data at one time.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="our-feature tools">
+            <div class="tools__img">
+                <img src="./assets/images/Group%20122.png" alt="">
+            </div>
+
+            <div class="our-feature__text">
+                <h1>
+                    <span>Tools</span> For Teachers And Learners
+                </h1>
+                <p>
+                    Class has a dynamic set of teaching tools built to be deployed and used during class.
+                    Teachers can handout assignments in real-time for students to complete and submit.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="our-feature quizzes">
+            <div class="quizzes__img">
+                <img src="./assets/images/Group%2092.png" alt="">
+            </div>
+
+            <div class="our-feature__text">
+                <h1>
+                    Assessments, <span>Quizzes</span>, Tests
+                </h1>
+                <p>Easily launch live assignments, quizzes, and tests.
+                    Student results are automatically entered in the online gradebook.</p>
+            </div>
+        </div>
+
+        <div class="our-feature class-mgnt">
+            <div class="class-mgnt__img">
+                <img src="./assets/images/Group%20124.png" alt="">
+            </div>
+
+            <div class="our-feature__text">
+                <h1><span>Class Management</span> Tools for Educators</h1>
+                <p>Class provides tools to help run and manage the class such as Class Roster, Attendance, and more.
+                    With the Gradebook, teachers can review and grade tests and quizzes in real-time.
+                </p>
+            </div>
+        </div>
+
+        <div class="our-feature discussion">
+            <div class="discussion__img">
+                <img src="./assets/images/Group%20106.png" alt="">
+            </div>
+
+            <div class="our-feature__text">
+                <h1>
+                    One-on-One <span>Discussions</span>
+                </h1>
+                <p>Teachers and teacher assistants can talk with students privately without leaving the Zoom
+                    environment.</p>
+            </div>
+        </div>
+
+        <a href="">See more features</a>
+
+    </div>
+
+    <div class="integrations">
+        <div class="integrations__left-side">
+            <img src="./assets/images/onedrive.png" alt="OneDrive">
+            <img src="./assets/images/dropbox.png" alt="DropBox">
+            <img src="./assets/images/googledrive.png" alt="GoogleDrive">
+            <img src="./assets/images/teams.png" alt="Teams">
+        </div>
+
+        <div class="integrations__right-side">
+            <h3>
+                <span></span>
+                INTEGRATIONS
+            </h3>
+
+            <h1>200+ educational tools and platform <span>integrations</span></h1>
+
+            <p>Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student
+                information systems (SIS), and education platforms.</p>
+
+            <a href="">See All Integrations</a>
+
+        </div>
+
+    </div>
+
+    <div class="testimonial">
+        <div class="testimonial__right-side">
+            <img src="./assets/images/Mask%20Group.png" alt="Mask Group">
+
+            <div class="testimonial__comment-box">
+                <div class="comment-box__left-border"></div>
+                <p>"Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It
+                    really saves me time and effort. Skilline is exactly what our business has been lacking."</p>
+
+                <h3>Gloria Rose</h3>
+
+                <div class="comment-box__reviews">
+                    <img src="./assets/images/stars.png" alt="">
+                    <p>12 reviews at Yelp</p>
+                </div>
+
+
+            </div>
+
+            <div class="right-arrow">
+                <img src="./assets/images/right-arrow.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="testimonial__left-side">
+            <h3>
+                <span></span>
+                TESTIMONIAL
+            </h3>
+
+            <h1>What They Say?</h1>
+
+            <p>Skilline has got more than 100k positive ratings from our users around the world. </p>
+
+            <p>Some of the students and teachers were greatly helped by the Skilline.</p>
+
+            <p>Are you too? Please give your assessment</p>
+
+            <div class="left-side__btn">
+                <a href="">See All Integrations</a>
+
+                <div class="left-side__arrow">
+                    <img src="./assets/images/Arrow%202.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="news">
+        <h1>
+            Lastest News and Resources
+        </h1>
+
+        <p>See the developments that have occurred to Skillines in the world</p>
+
+        <div class="news__bottom">
+            <div class="news__left">
+                <div class="left-card">
+                    <img src="./assets/images/Group%2040.png" alt="">
+                    <div class="yellow-bg">
+                        <span>NEWS</span>
+                    </div>
+
+                    <h2>Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</h2>
+
+                    <p>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates
+                        exclusively...</p>
+
+                    <a href="">Read more</a>
+
+                </div>
+            </div>
+
+            <div class="news__right">
+                <div class="right-card">
+                    <div class="right-card-img">
+                        <img src="./assets/images/Rectangle%2033.png" alt="">
+                        <div class="yellow-bg">
+                            <span>PRESS RELEASE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="right-card-text">
+                        <h3>
+                            Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand
+                        </h3>
+
+                        <p>Class Technologies Inc., the company that created Class,...</p>
+
+                    </div>
+
+                </div>
+
+                <div class="right-card">
+                    <div class="right-card-img">
+                        <img src="./assets/images/Rectangle%2034.png" alt="">
+                        <div class="yellow-bg span-for-news">
+                            <span>NEWS</span>
+                        </div>
+                    </div>
+
+
+                    <div class="right-card-text">
+                        <h3>
+                            Zoom’s earliest investors are betting millions on a better Zoom for schools
+                        </h3>
+
+                        <p>Zoom was never created to be a consumer product. Nonetheless, the...</p>
+
+                    </div>
+
+                </div>
+
+                <div class="right-card">
+                    <div class="right-card-img">
+                        <img src="./assets/images/Rectangle%2037.png" alt="">
+                        <div class="yellow-bg span-for-news">
+                            <span>NEW</span>
+                        </div>
+                    </div>
+
+
+                    <div class="right-card-text">
+                        <h3>
+                            Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms
+                        </h3>
+
+                        <p>This year, investors have reaped big financial returns from betting on Zoom...</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-logo">
+        <img src="./assets/images/footerlogo.png" alt="">
+        <p>
+            Virtual Class for Zoom
+        </p>
+    </div>
+
+    <div class="footer-subscribe">
+        <h3>Subscribe to get our Newsletter</h3>
+
+        <form action="">
+            <input type="email" placeholder="Your Email">
+
+            <input type="submit" value="Subscribe">
+
+        </form>
+
+    </div>
+
+    <div class="footer-links">
+        <ul>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+        </ul>
+    </div>
+
+    <div class="copyright">
+        <h4> &#169; 2021 Class Technologies Inc. </h4>
+    </div>
+
+</footer>
+
+</body>
+</html>
